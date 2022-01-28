@@ -5,10 +5,17 @@ package gitflow.test;
 
 public class App {
     public String getGreeting() {
-        return "Hello World!";
+
+        return "This is a small change in the app.";
+
+    }
+
+    public String secondString(){
+        return "a second string. recompile maybe?";
     }
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+        System.out.println(new App().secondString());
     }
 }
