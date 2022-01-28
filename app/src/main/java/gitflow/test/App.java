@@ -14,8 +14,13 @@ public class App {
         return "a second string. recompile maybe?";
     }
 
+    public String thirdString(){
+        return "a third string. recompile maybe?";
+    }
+
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
         System.out.println(new App().secondString());
+        System.out.println(new App().thirdString());
     }
 }
